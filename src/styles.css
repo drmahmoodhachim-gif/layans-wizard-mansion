@@ -274,6 +274,24 @@ canvas { width: 100%; max-width: 600px; border: 2px solid var(--lavender); borde
 .academy-opt {
   min-width: 180px;
 }
+.academy-modules {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0 12px;
+}
+.academy-module-btn {
+  border-radius: 999px;
+  border: 2px solid #2c69b5;
+  background: linear-gradient(135deg, #dff0ff, #cce4ff);
+  color: #093563;
+  font-weight: 700;
+  padding: 7px 10px;
+}
+.academy-module-btn--active {
+  border-color: #2ea058;
+  background: linear-gradient(135deg, #e8fff1, #ccf2dd);
+}
 input[type="text"] {
   border: 2px solid #8eb8e8;
   border-radius: 10px;

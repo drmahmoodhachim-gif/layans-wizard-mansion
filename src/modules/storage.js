@@ -29,7 +29,9 @@ const defaultState = {
     phase1: { best: 0, attempts: 0, passed: false },
     phase2: { best: 0, attempts: 0, passed: false },
     phase3: { best: 0, attempts: 0, passed: false },
-    phase4: { best: 0, attempts: 0, passed: false }
+    phase4: { best: 0, attempts: 0, passed: false },
+    phase5: { best: 0, attempts: 0, passed: false },
+    phase6: { best: 0, attempts: 0, passed: false }
   }
 };
 

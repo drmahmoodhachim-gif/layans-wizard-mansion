@@ -130,7 +130,7 @@ function curriculumMap(yearBand) {
       },
       {
         subject: "Structured Phase Path",
-        focus: "4 guided phases: place value, calculation, English writing, and science review",
+        focus: "6 guided phases: Y2 maths/English/science then Y3 maths/English/science",
         room: "🧙 Curriculum Adventure Academy"
       }
     ];
@@ -158,7 +158,7 @@ function curriculumMap(yearBand) {
     },
     {
       subject: "Structured Phase Path",
-      focus: "4 guided phases: place value, calculation, English writing, and science review",
+      focus: "6 guided phases: Y2 maths/English/science then Y3 maths/English/science",
       room: "🧙 Curriculum Adventure Academy"
     }
   ];

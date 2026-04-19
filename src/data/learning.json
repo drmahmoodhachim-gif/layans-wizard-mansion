@@ -1,0 +1,85 @@
+{
+  "name": "Learning",
+  "challenge": "Learn one new word or number fact today and explain it out loud to someone at home.",
+  "stories": [
+    {
+      "title": "The Curious Notebook",
+      "reflection": "Which subject do you want to practise tomorrow: English, maths, or science?",
+      "pages": [
+        {
+          "emoji": "📓",
+          "text": "Each evening Layan wrote one interesting fact in neat handwriting."
+        },
+        {
+          "emoji": "🔢",
+          "text": "She practised number facts until they felt quicker and easier."
+        },
+        {
+          "emoji": "⭐",
+          "text": "Little steps build confidence like bricks in a strong wall."
+        },
+        {
+          "emoji": "📖",
+          "text": "Year 3 writers often plan one clear paragraph before they draft — small headings help thinking stay organised."
+        },
+        {
+          "emoji": "🔬",
+          "text": "Science feels exciting when you treat each question like a tiny experiment."
+        }
+      ]
+    },
+    {
+      "title": "Question Power",
+      "reflection": "What question could you ask that starts with how or why?",
+      "pages": [
+        {
+          "emoji": "❓",
+          "text": "Layan wrote a curious question about light and shadows."
+        },
+        {
+          "emoji": "📚",
+          "text": "She used a nonfiction page to search for trustworthy information."
+        },
+        {
+          "emoji": "🧠",
+          "text": "An important reading skill is to ask, 'Does this information make sense with what I already know?'"
+        },
+        {
+          "emoji": "📕",
+          "text": "If a word looks new, a dictionary can show its meaning in a careful, child-friendly way."
+        },
+        {
+          "emoji": "💡",
+          "text": "Evidence helped her decide what was probably true."
+        }
+      ]
+    }
+  ],
+  "game": {
+    "type": "fact-or-fib",
+    "title": "Fact or Fib",
+    "questions": [
+      {
+        "question": "10 millimetres equals 1 centimetre.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explain": "A centimetre is split into 10 equal tiny parts called millimetres.",
+        "shortcut": "cm to mm: times 10."
+      },
+      {
+        "question": "The moon shines with its own bright light like the sun.",
+        "options": ["True", "False"],
+        "answer": "False",
+        "explain": "The moon reflects sunlight. It does not make its own light.",
+        "shortcut": "Sun = source, moon = mirror."
+      },
+      {
+        "question": "Forces can push or pull objects.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explain": "A force is a push or a pull that can move or stop things.",
+        "shortcut": "Force = push/pull."
+      }
+    ]
+  }
+}

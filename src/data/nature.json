@@ -1,0 +1,81 @@
+{
+  "name": "Nature",
+  "challenge": "Outside or by a window, observe three living things (plants or animals). Tap when you have looked carefully.",
+  "stories": [
+    {
+      "title": "Leaf Detective",
+      "reflection": "What did you notice about the leaf shape or colour?",
+      "pages": [
+        {
+          "emoji": "🔍",
+          "text": "Layan used a magnifier to observe a leaf up close."
+        },
+        {
+          "emoji": "🍃",
+          "text": "She saw tiny lines called veins, like roads on a map."
+        },
+        {
+          "emoji": "☀️",
+          "text": "Leaves need sunlight and water to help the plant stay healthy."
+        },
+        {
+          "emoji": "📏",
+          "text": "Year 3 maths link: the leaf might be about six centimetres long — estimate first, then check."
+        }
+      ]
+    },
+    {
+      "title": "Rain And Roots",
+      "reflection": "Why do plants need water moving through roots and stems?",
+      "pages": [
+        {
+          "emoji": "💧",
+          "text": "Rain soaked the soil and the roots drank slowly."
+        },
+        {
+          "emoji": "🌼",
+          "text": "The stem carried water upward so the flower could grow taller."
+        },
+        {
+          "emoji": "🌍",
+          "text": "This is part of how living things depend on their habitat."
+        },
+        {
+          "emoji": "🌡️",
+          "text": "Weather changes the temperature and shapes the local environment for plants and animals."
+        },
+        {
+          "emoji": "🧮",
+          "text": "If you walk the edge of a small garden bed, you are thinking about perimeter in the real world."
+        }
+      ]
+    }
+  ],
+  "game": {
+    "type": "quiz",
+    "title": "Name That Leaf",
+    "questions": [
+      {
+        "question": "Which leaf is usually long and thin like a needle?",
+        "options": ["Pine needle", "Oak leaf", "Daisy petal"],
+        "answer": "Pine needle",
+        "explain": "Pine trees have leaves shaped like thin needles.",
+        "shortcut": "Picture a Christmas tree leaf: long and skinny."
+      },
+      {
+        "question": "Which part of a plant often grows under the soil?",
+        "options": ["Roots", "Clouds", "Stars"],
+        "answer": "Roots",
+        "explain": "Roots grow underground and drink water from soil.",
+        "shortcut": "R in roots = R in underground 'root room'."
+      },
+      {
+        "question": "Roughly how many millimetres are in 1 centimetre?",
+        "options": ["10", "100", "1000"],
+        "answer": "10",
+        "explain": "One centimetre is made of 10 tiny millimetres.",
+        "shortcut": "cm to mm: multiply by 10."
+      }
+    ]
+  }
+}

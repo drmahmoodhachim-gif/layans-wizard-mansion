@@ -1,0 +1,59 @@
+{
+  "name": "Kindness",
+  "challenge": "Do one kind thing for somebody at school or home, then tap when it is done.",
+  "stories": [
+    {
+      "title": "The Sharing Star",
+      "reflection": "How could you share something fairly today?",
+      "pages": [
+        {
+          "emoji": "⭐",
+          "text": "Layan found two biscuits and shared one because sharing feels fair."
+        },
+        {
+          "emoji": "😊",
+          "text": "Her friend smiled and told a happy story back."
+        },
+        {
+          "emoji": "💝",
+          "text": "Both felt proud: kindness grows when everybody tries."
+        },
+        {
+          "emoji": "✨",
+          "text": "Teacher tip for Year 3 writers: evidence for kindness can be a polite word, a fair choice, or a calm solution."
+        },
+        {
+          "emoji": "🌟",
+          "text": "Although sharing can feel tricky at first, it is possible to take turns and still feel happy."
+        }
+      ]
+    },
+    {
+      "title": "Helping Hands",
+      "reflection": "Who could you help with a small job today?",
+      "pages": [
+        {
+          "emoji": "🧸",
+          "text": "Before dinner, Layan helped tidy toys into a box."
+        },
+        {
+          "emoji": "🏠",
+          "text": "The room looked beautiful and calm again."
+        },
+        {
+          "emoji": "🌈",
+          "text": "Her family felt grateful because teamwork makes hard jobs easier."
+        },
+        {
+          "emoji": "📝",
+          "text": "If you wrote this as a paragraph in your book, you could open a dictionary to upgrade one word."
+        }
+      ]
+    }
+  ],
+  "game": {
+    "type": "memory",
+    "title": "Kind Words Match",
+    "pairs": ["Thank you", "Great job", "You matter", "Can I help?", "Well done"]
+  }
+}

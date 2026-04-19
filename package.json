@@ -1,0 +1,30 @@
+{
+  "name": "layans-wizard-mansion",
+  "version": "1.0.0",
+  "description": "Layan's Wizard Mansion for Learning",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drmahmoodhachim-gif/layans-wizard-mansion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/drmahmoodhachim-gif/layans-wizard-mansion/issues"
+  },
+  "homepage": "https://github.com/drmahmoodhachim-gif/layans-wizard-mansion#readme",
+  "dependencies": {
+    "vite": "^7.3.2",
+    "vite-plugin-pwa": "^1.2.0"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}

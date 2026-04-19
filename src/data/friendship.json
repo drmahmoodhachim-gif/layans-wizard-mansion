@@ -1,0 +1,100 @@
+{
+  "name": "Friendship",
+  "challenge": "Use respectful words: say please, thank you, or sorry to someone today. Tap when you have spoken kindly.",
+  "stories": [
+    {
+      "title": "The New Classmate",
+      "reflection": "How could you include someone who feels left out?",
+      "pages": [
+        {
+          "emoji": "🍎",
+          "text": "A new pupil sat quietly at lunchtime."
+        },
+        {
+          "emoji": "🤝",
+          "text": "Layan invited them to sit nearby because everybody deserves to feel welcome."
+        },
+        {
+          "emoji": "🎉",
+          "text": "They laughed together and planned a fair game for next break."
+        },
+        {
+          "emoji": "🤗",
+          "text": "Year 3 teamwork: cooperation sounds polite, but it still needs respectful listening when friends disagree."
+        },
+        {
+          "emoji": "💬",
+          "text": "If two plans clash, pause and seek a calm solution everyone can accept."
+        }
+      ]
+    },
+    {
+      "title": "Team Tower",
+      "reflection": "When is listening more helpful than rushing?",
+      "pages": [
+        {
+          "emoji": "🧱",
+          "text": "Two partners built a tower from wooden blocks."
+        },
+        {
+          "emoji": "👂",
+          "text": "They listened carefully before adding the next block."
+        },
+        {
+          "emoji": "🏆",
+          "text": "Their tower stood tall although it wobbled once."
+        },
+        {
+          "emoji": "🧭",
+          "text": "Even respectful builders can disagree about the next block — that is normal."
+        }
+      ]
+    }
+  ],
+  "game": {
+    "type": "bingo",
+    "title": "Friendship Bingo",
+    "actions": [
+      "Say hello",
+      "Share fairly",
+      "Give a compliment",
+      "Invite someone",
+      "Help tidy up",
+      "Listen first",
+      "Wait your turn",
+      "Say please",
+      "Say thank you",
+      "Smile warmly",
+      "Encourage a friend",
+      "Ask kindly",
+      "Solve calmly",
+      "Share crayons",
+      "Offer help",
+      "Use respectful words",
+      "Play together",
+      "Include everyone",
+      "Cheer kindly",
+      "Take deep breaths",
+      "Say sorry",
+      "Give a high-five",
+      "Pass politely",
+      "Say excuse me",
+      "Invite fairly",
+      "Celebrate teamwork"
+    ],
+    "lines": [
+      [0, 1, 2, 3, 4],
+      [5, 6, 7, 8, 9],
+      [10, 11, 12, 13, 14],
+      [15, 16, 17, 18, 19],
+      [20, 21, 22, 23, 24],
+      [0, 5, 10, 15, 20],
+      [1, 6, 11, 16, 21],
+      [2, 7, 12, 17, 22],
+      [3, 8, 13, 18, 23],
+      [4, 9, 14, 19, 24],
+      [0, 6, 12, 18, 24],
+      [4, 8, 12, 16, 20]
+    ]
+  }
+}

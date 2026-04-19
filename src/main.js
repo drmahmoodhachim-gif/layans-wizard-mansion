@@ -3,6 +3,7 @@ import { registerSW } from "virtual:pwa-register";
 import { loadState, patchStateSilent, saveState } from "./modules/storage.js";
 import { syncWizardHeader } from "./modules/headerSync.js";
 import { disposeCastleKeyboard, renderMagicalNumberCastle } from "./modules/magicalNumberCastle.js";
+import { renderCurriculumAdventure } from "./modules/curriculumAdventure.js";
 import { renderKindness } from "./modules/kindness.js";
 import { renderNature } from "./modules/nature.js";
 import { renderFriendship } from "./modules/friendship.js";
@@ -38,6 +39,26 @@ function renderCastlePage(content) {
   `;
   const root = content.querySelector("#castleRoot");
   renderMagicalNumberCastle(root, state);
+}
+
+function renderAdventurePage(content) {
+  const bandLabel = state.yearBand === "y3" ? "Year 3" : "Year 2";
+  content.innerHTML = `
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="#/">Home</a> <span>/</span> <strong>Curriculum Adventure</strong>
+    </nav>
+    <section class="theme-hero">
+      <h2>🧙 Curriculum Adventure Academy</h2>
+      <p>All planned phases in one place • Companion mode: ${bandLabel}</p>
+    </section>
+    <div class="row">
+      <a class="fun-button" href="#/">🏠 Home</a>
+      <a class="fun-button" href="#/math/year2/place-value">🏰 Number Castle</a>
+    </div>
+    <main id="academyRoot" tabindex="-1"></main>
+  `;
+  const root = content.querySelector("#academyRoot");
+  renderCurriculumAdventure(root, state);
 }
 
 function onGlobalClick(e) {
@@ -106,6 +127,11 @@ function curriculumMap(yearBand) {
         subject: "PSHE & Speaking",
         focus: "Respectful talk, listening, teamwork and conflict resolution",
         room: "👫 Speaking & Listening"
+      },
+      {
+        subject: "Structured Phase Path",
+        focus: "4 guided phases: place value, calculation, English writing, and science review",
+        room: "🧙 Curriculum Adventure Academy"
       }
     ];
   }
@@ -129,6 +155,11 @@ function curriculumMap(yearBand) {
       subject: "PSHE & Speaking",
       focus: "Kindness, sharing, turn-taking, polite classroom language",
       room: "💝 Kindness & PSHE"
+    },
+    {
+      subject: "Structured Phase Path",
+      focus: "4 guided phases: place value, calculation, English writing, and science review",
+      room: "🧙 Curriculum Adventure Academy"
     }
   ];
 }
@@ -146,6 +177,7 @@ function renderHome(content) {
         <a class="hub-pill" href="#/friendship">👫 Team Quest</a>
         <a class="hub-pill" href="#/learning">📚 Brain Quest</a>
         <a class="hub-pill hub-pill--featured" href="#/math/year2/place-value">🏰 Number Castle (Y2 maths)</a>
+        <a class="hub-pill hub-pill--featured" href="#/academy/phases">🧙 Curriculum Adventure (All phases)</a>
       </div>
     </section>
 
@@ -244,6 +276,7 @@ function render() {
           <a href="#/friendship">Friendship</a>
           <a href="#/learning">Learning</a>
           <a href="#/math/year2/place-value">🏰 Castle</a>
+          <a href="#/academy/phases">🧙 Phases</a>
         </div>
       </div>
       <header class="header">
@@ -264,6 +297,7 @@ function render() {
   const content = app.querySelector("#content");
   if (!route) renderHome(content);
   else if (route === "math/year2/place-value") renderCastlePage(content);
+  else if (route === "academy/phases") renderAdventurePage(content);
   else if (["kindness", "nature", "friendship", "learning"].includes(route)) renderTheme(content, route);
   else renderHome(content);
 }

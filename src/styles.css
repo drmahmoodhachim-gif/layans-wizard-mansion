@@ -245,6 +245,35 @@ canvas { width: 100%; max-width: 600px; border: 2px solid var(--lavender); borde
   margin: 8px 0 10px;
 }
 .theme-hero h2 { margin: 0 0 6px; color: #6842a2; }
+.academy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+  margin: 12px 0;
+}
+.academy-card {
+  text-align: left;
+  border-radius: 14px;
+  border: 2px solid #7cb9ff;
+  background: linear-gradient(145deg, #f8fcff, #e9f4ff);
+  padding: 12px;
+}
+.academy-card--active {
+  border-color: #30a259;
+  box-shadow: 0 0 0 3px rgba(48, 162, 89, 0.2);
+}
+.academy-tag {
+  margin: 0 0 6px;
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #0f4e89;
+}
+.academy-card h3 {
+  margin: 0 0 6px;
+}
+.academy-opt {
+  min-width: 180px;
+}
 input[type="text"] {
   border: 2px solid #8eb8e8;
   border-radius: 10px;

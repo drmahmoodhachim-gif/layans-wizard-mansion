@@ -24,6 +24,12 @@ const defaultState = {
     lessonProgress: 0,
     /** Persisted 10–99 challenge while playing Number Castle */
     activeChallenge: null
+  },
+  academyProgress: {
+    phase1: { best: 0, attempts: 0, passed: false },
+    phase2: { best: 0, attempts: 0, passed: false },
+    phase3: { best: 0, attempts: 0, passed: false },
+    phase4: { best: 0, attempts: 0, passed: false }
   }
 };
 
@@ -45,6 +51,9 @@ function mergePartial(base, partial) {
   const next = { ...base, ...partial };
   if (partial.castleProgress) {
     next.castleProgress = { ...base.castleProgress, ...partial.castleProgress };
+  }
+  if (partial.academyProgress) {
+    next.academyProgress = { ...base.academyProgress, ...partial.academyProgress };
   }
   if (partial.badges) {
     next.badges = partial.badges;
